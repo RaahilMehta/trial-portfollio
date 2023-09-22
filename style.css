@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font family for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header/navigation bar */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('hero-background.jpg'); /* Replace with your image */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Style the about section */
+#about {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Style the portfolio section */
+#portfolio {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.portfolio-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add media queries for responsiveness as needed */
+
